@@ -1,6 +1,6 @@
 //               0       1        2          3      4
 let alunos = ['Luiz', 'Maria', 'João']; // Luiza, Eduardo 
-alunos = 123;
+// alunos = 123;
 
 console.log(typeof alunos);
 console.log(alunos instanceof Array);
@@ -36,3 +36,4 @@ console.log(alunos instanceof Array);
 // console.log(alunos);
 // console.log(alunos[0]);
 // console.log(alunos[2]);
+console.log(alunos[2][0]);
