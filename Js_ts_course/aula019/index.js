@@ -8,7 +8,7 @@ const a = {
   nome: "Arthur",
   sobrenome: "Nicolas",
 };
-const b = a;
+const b = {...a};
 
 b.nome = "sung";
 a.sobrenome = " jin woo";
