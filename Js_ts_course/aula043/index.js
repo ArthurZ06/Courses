@@ -7,11 +7,23 @@
 // Checar se o número é realmente um numero = Retornar o próprio número
 // Use a função com números de 0 a 100
 
-function numero(n) {
+function main(n) {
+  if (typeof n !== "number") {
+    console.log(`${n} não é um número`);
+    return;
+  }
 
-  if (n % 2 === isNaN(n) ) {
-    console.log(`O numero e inteiro ${n}`)
+  if (n % 3 === 0 && n % 5 === 0) {
+    console.log(` numero ${n} e divisivel por 5 é 3 FizzBuzz`);
+  } else if (n % 3 === 0) {
+    console.log(` numero ${n} e divisivel por 3 Fizz`);
+  } else if (n % 5 === 0) {
+    console.log(` numero ${n} e divisivel por 5 Buzz`);
+  } else {
+    console.log(`Número informado não e divisivel nem por 5 é nem por 3 `);
   }
 }
-
-numero(5)
+main(3);
+main(5);
+main(15);
+main("t");
