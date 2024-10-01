@@ -23,7 +23,8 @@ function main(n) {
     console.log(`Número informado não e divisivel nem por 5 é nem por 3 `);
   }
 }
-main(3);
-main(5);
-main(15);
-main("t");
+
+console.log(main('a'))
+for (let i = 0; i <= 100; i++) {
+  console.log(i, main(i));
+}
