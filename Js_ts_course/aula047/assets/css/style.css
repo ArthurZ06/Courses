@@ -60,3 +60,7 @@ form button:hover {
 .big {
   font-size: 40px;
 }
+
+.paused {
+  color: rgb(241, 76, 76)
+}
